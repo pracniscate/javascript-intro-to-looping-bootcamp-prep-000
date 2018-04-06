@@ -21,6 +21,12 @@ return 'done';
 // removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false
 
 function doWhileLoop(array) {
-  
+  function maybeTrue() {
+  return Math.random() >= 0.5;
+}
+ 
+do {
+  console.log('doo-bee-doo-bee-doo');
+} while (maybeTrue());
 return array;  
 }
