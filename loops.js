@@ -22,11 +22,11 @@ return 'done';
 
 function doWhileLoop(array) {
   function maybeTrue() {
-  return array.length > 0 && maybeTrue();
+    return array.length > 0 && maybeTrue();
 }
 
 do {
-  console.log(array.length -1);
+  console.log(array.length = 0);
 } while (maybeTrue());
 return array;  
 }
