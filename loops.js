@@ -18,4 +18,9 @@ function whileLoop(n) {
 return 'done';
 }
 
-//
+// removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false
+
+function doWhileLoop(array) {
+  
+return array;  
+}
